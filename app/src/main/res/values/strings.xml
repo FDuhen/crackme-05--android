@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">crackme-05--android</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main screen</string>
+    <string name="second_fragment_label">Subscribed screen !</string>
+    <string name="next">Subscriber\'s screen</string>
+    <string name="previous">Main Screen</string>
+
+    <string name="hello_first_fragment">Main Screen</string>
+    <string name="hello_second_fragment">Subscriber\'s screen</string>
+    <string name="hint">Decompile the app and look into the models !</string>
+    <string name="pro_required">You have to buy the app in order to access this page</string>
+    <string name="solution">
+        <br>
+            Congrats !!!\n\n
+        </br>
+        <br>
+            As you can see, it is very easy to edit and recompile an app after editing a value as simple as a Boolean\n\n<br />
+        </br>
+        <br>
+        In order to avoid this kind of weakness in your code :\n<br />
+        - Activate Proguard<br />\n
+        - Don\'t use variable names which are too explicits\n<br />
+        - Multiply the checks (check a boolean in the data model, and also a hash linked to the user\'s transaction for example)\n<br />
+        - If it\'s possible, manage all the premium features of your app on the server-side
+        </br>
+    </string>
+</resources>

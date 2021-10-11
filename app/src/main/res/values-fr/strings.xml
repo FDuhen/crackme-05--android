@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">crackme-05--android</string>
+    <string name="action_settings">Paramètres</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Ecran principal</string>
+    <string name="second_fragment_label">Ecran Abonné !</string>
+    <string name="next">Espace abonné</string>
+    <string name="previous">Ecran principal</string>
+
+    <string name="hello_first_fragment">Ecran principal</string>
+    <string name="hello_second_fragment">Ecran Abonné !</string>
+    <string name="hint">Pas d\'arnaque possible ici, une décompilation de l\'application est nécessaire !</string>
+    <string name="pro_required">Il faut acheter l\'application pour accéder à cette page</string>
+    <string name="solution">
+        <br>
+            Bravo !!!\n\n
+        </br>
+        <br>
+            Il est très facile de recompiler une application après avoir modifié une valeur aussi simple qu\'un Booléen.\n<br />
+        </br>
+        <br>
+        Pour éviter tout hack de ce genre, plusieurs solutions :\n<br />
+        - Activer Proguard\n<br />
+        - Ne pas utiliser de noms de variables trop explicites\n<br />
+        - Multiplier les vérifications (en plus d\'un boolean dans le modele de données, un Hash lié à l\'achat de l\'utilisateur par exemple)\n<br />
+        - Si c\'est possible, effectuer toutes les vérifications côté serveur
+        </br>
+    </string>
+</resources>
